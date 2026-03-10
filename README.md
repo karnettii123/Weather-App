@@ -1,65 +1,54 @@
-A simple and modern weather application that allows users to check the current weather conditions for any city in the world. The app uses a public Weather API to fetch real-time data and display useful weather information in a clean and responsive interface.
+# Weather App
 
-Features
+A simple weather application that allows users to check the current weather conditions for any city in the world. The app fetches real-time weather data from a public Weather API and displays useful information in a clean and responsive interface.
 
-Search weather by city name
+## Features
 
-Display current temperature
+* Search weather by city name
+* Display current temperature
+* Show weather conditions and icons
+* Humidity and wind speed information
+* Error handling for invalid city names
+* Loading state while fetching data
+* Responsive design for different screen sizes
 
-Weather condition description
+## Technologies Used
 
-Humidity and wind speed information
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* Fetch API
+* Weather API
 
-Weather icons
+## How It Works
 
-Error handling for invalid city names
+1. The user enters a city name in the search field.
+2. The application sends a request to the weather API.
+3. The API returns real-time weather data.
+4. The app parses the response and updates the UI with weather details.
 
-Responsive design for different screen sizes
+## Installation
 
-Technologies Used
+1. Clone the repository:
 
-HTML5
+git clone https://github.com/your-username/weather-app.git
 
-CSS3
+2. Open the project folder.
 
-JavaScript (ES6+)
+3. Run the project by opening `index.html` in your browser.
 
-Fetch API
+## Future Improvements
 
-Weather API
+* 5-day weather forecast
+* Geolocation support
+* Save favorite cities
+* Dark / Light mode
+* Temperature unit switch (°C / °F)
 
-How It Works
+## Purpose
 
-The user enters the name of a city.
+This project was created as a practice project to improve skills in working with APIs, asynchronous JavaScript, and dynamic UI updates.
 
-The application sends a request to the Weather API.
+## Author
 
-The API returns weather data in JSON format.
-
-JavaScript processes the data and updates the UI dynamically.
-
-Learning Goals
-
-This project was created to practice:
-
-Working with external APIs
-
-Using asynchronous JavaScript (fetch, async/await)
-
-Handling JSON data
-
-DOM manipulation
-
-Error handling in frontend applications
-
-Future Improvements
-
-5-day weather forecast
-
-Geolocation-based weather detection
-
-Dark / Light mode
-
-Saving favorite cities
-
-Temperature unit switch (°C / °F)
+Created by a Junior Frontend Developer.
