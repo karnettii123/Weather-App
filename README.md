@@ -51,4 +51,4 @@ This project was created as a practice project to improve skills in working with
 
 ## Author
 
-Created by a Junior Frontend Developer.
+Created by a karnettii
